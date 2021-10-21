@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEF1C8F72721EFCE004A224A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C8F62721EFCE004A224A /* AppDelegate.swift */; };
+		AEF1C8F92721EFCE004A224A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C8F82721EFCE004A224A /* SceneDelegate.swift */; };
+		AEF1C8FB2721EFCE004A224A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C8FA2721EFCE004A224A /* ViewController.swift */; };
+		AEF1C8FE2721EFCE004A224A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1C8FC2721EFCE004A224A /* Main.storyboard */; };
+		AEF1C9002721EFD1004A224A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF1C8FF2721EFD1004A224A /* Assets.xcassets */; };
+		AEF1C9032721EFD1004A224A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1C9012721EFD1004A224A /* LaunchScreen.storyboard */; };
+		AEF1C90E2721EFD2004A224A /* EzChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C90D2721EFD2004A224A /* EzChessTests.swift */; };
+		AEF1C9182721EFD2004A224A /* EzChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9172721EFD2004A224A /* EzChessUITests.swift */; };
+		AEF1C91A2721EFD2004A224A /* EzChessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9192721EFD2004A224A /* EzChessUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEF1C90A2721EFD2004A224A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF1C8EB2721EFCE004A224A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF1C8F22721EFCE004A224A;
+			remoteInfo = EzChess;
+		};
+		AEF1C9142721EFD2004A224A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEF1C8EB2721EFCE004A224A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEF1C8F22721EFCE004A224A;
+			remoteInfo = EzChess;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEF1C8F32721EFCE004A224A /* EzChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF1C8F62721EFCE004A224A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AEF1C8F82721EFCE004A224A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AEF1C8FA2721EFCE004A224A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AEF1C8FD2721EFCE004A224A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEF1C8FF2721EFD1004A224A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEF1C9022721EFD1004A224A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEF1C9042721EFD1004A224A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEF1C9092721EFD2004A224A /* EzChessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzChessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF1C90D2721EFD2004A224A /* EzChessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzChessTests.swift; sourceTree = "<group>"; };
+		AEF1C9132721EFD2004A224A /* EzChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEF1C9172721EFD2004A224A /* EzChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzChessUITests.swift; sourceTree = "<group>"; };
+		AEF1C9192721EFD2004A224A /* EzChessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzChessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEF1C8F02721EFCE004A224A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF1C9062721EFD2004A224A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF1C9102721EFD2004A224A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEF1C8EA2721EFCE004A224A = {
+			isa = PBXGroup;
+			children = (
+				AEF1C8F52721EFCE004A224A /* EzChess */,
+				AEF1C90C2721EFD2004A224A /* EzChessTests */,
+				AEF1C9162721EFD2004A224A /* EzChessUITests */,
+				AEF1C8F42721EFCE004A224A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEF1C8F42721EFCE004A224A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1C8F32721EFCE004A224A /* EzChess.app */,
+				AEF1C9092721EFD2004A224A /* EzChessTests.xctest */,
+				AEF1C9132721EFD2004A224A /* EzChessUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEF1C8F52721EFCE004A224A /* EzChess */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1C8F62721EFCE004A224A /* AppDelegate.swift */,
+				AEF1C8F82721EFCE004A224A /* SceneDelegate.swift */,
+				AEF1C8FA2721EFCE004A224A /* ViewController.swift */,
+				AEF1C8FC2721EFCE004A224A /* Main.storyboard */,
+				AEF1C8FF2721EFD1004A224A /* Assets.xcassets */,
+				AEF1C9012721EFD1004A224A /* LaunchScreen.storyboard */,
+				AEF1C9042721EFD1004A224A /* Info.plist */,
+			);
+			path = EzChess;
+			sourceTree = "<group>";
+		};
+		AEF1C90C2721EFD2004A224A /* EzChessTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1C90D2721EFD2004A224A /* EzChessTests.swift */,
+			);
+			path = EzChessTests;
+			sourceTree = "<group>";
+		};
+		AEF1C9162721EFD2004A224A /* EzChessUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1C9172721EFD2004A224A /* EzChessUITests.swift */,
+				AEF1C9192721EFD2004A224A /* EzChessUITestsLaunchTests.swift */,
+			);
+			path = EzChessUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEF1C8F22721EFCE004A224A /* EzChess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF1C91D2721EFD2004A224A /* Build configuration list for PBXNativeTarget "EzChess" */;
+			buildPhases = (
+				AEF1C8EF2721EFCE004A224A /* Sources */,
+				AEF1C8F02721EFCE004A224A /* Frameworks */,
+				AEF1C8F12721EFCE004A224A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EzChess;
+			productName = EzChess;
+			productReference = AEF1C8F32721EFCE004A224A /* EzChess.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEF1C9082721EFD2004A224A /* EzChessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF1C9202721EFD2004A224A /* Build configuration list for PBXNativeTarget "EzChessTests" */;
+			buildPhases = (
+				AEF1C9052721EFD2004A224A /* Sources */,
+				AEF1C9062721EFD2004A224A /* Frameworks */,
+				AEF1C9072721EFD2004A224A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF1C90B2721EFD2004A224A /* PBXTargetDependency */,
+			);
+			name = EzChessTests;
+			productName = EzChessTests;
+			productReference = AEF1C9092721EFD2004A224A /* EzChessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEF1C9122721EFD2004A224A /* EzChessUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEF1C9232721EFD2004A224A /* Build configuration list for PBXNativeTarget "EzChessUITests" */;
+			buildPhases = (
+				AEF1C90F2721EFD2004A224A /* Sources */,
+				AEF1C9102721EFD2004A224A /* Frameworks */,
+				AEF1C9112721EFD2004A224A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEF1C9152721EFD2004A224A /* PBXTargetDependency */,
+			);
+			name = EzChessUITests;
+			productName = EzChessUITests;
+			productReference = AEF1C9132721EFD2004A224A /* EzChessUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEF1C8EB2721EFCE004A224A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AEF1C8F22721EFCE004A224A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					AEF1C9082721EFD2004A224A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AEF1C8F22721EFCE004A224A;
+					};
+					AEF1C9122721EFD2004A224A = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = AEF1C8F22721EFCE004A224A;
+					};
+				};
+			};
+			buildConfigurationList = AEF1C8EE2721EFCE004A224A /* Build configuration list for PBXProject "EzChess" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEF1C8EA2721EFCE004A224A;
+			productRefGroup = AEF1C8F42721EFCE004A224A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEF1C8F22721EFCE004A224A /* EzChess */,
+				AEF1C9082721EFD2004A224A /* EzChessTests */,
+				AEF1C9122721EFD2004A224A /* EzChessUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF1C8F12721EFCE004A224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF1C9032721EFD1004A224A /* LaunchScreen.storyboard in Resources */,
+				AEF1C9002721EFD1004A224A /* Assets.xcassets in Resources */,
+				AEF1C8FE2721EFCE004A224A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF1C9072721EFD2004A224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF1C9112721EFD2004A224A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF1C8EF2721EFCE004A224A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF1C8FB2721EFCE004A224A /* ViewController.swift in Sources */,
+				AEF1C8F72721EFCE004A224A /* AppDelegate.swift in Sources */,
+				AEF1C8F92721EFCE004A224A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF1C9052721EFD2004A224A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF1C90E2721EFD2004A224A /* EzChessTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEF1C90F2721EFD2004A224A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF1C91A2721EFD2004A224A /* EzChessUITestsLaunchTests.swift in Sources */,
+				AEF1C9182721EFD2004A224A /* EzChessUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEF1C90B2721EFD2004A224A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF1C8F22721EFCE004A224A /* EzChess */;
+			targetProxy = AEF1C90A2721EFD2004A224A /* PBXContainerItemProxy */;
+		};
+		AEF1C9152721EFD2004A224A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEF1C8F22721EFCE004A224A /* EzChess */;
+			targetProxy = AEF1C9142721EFD2004A224A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEF1C8FC2721EFCE004A224A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF1C8FD2721EFCE004A224A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEF1C9012721EFD1004A224A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEF1C9022721EFD1004A224A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEF1C91B2721EFD2004A224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AEF1C91C2721EFD2004A224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEF1C91E2721EFD2004A224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSPR5B58TS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EzChess/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aniketgupta.EzChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEF1C91F2721EFD2004A224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSPR5B58TS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EzChess/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aniketgupta.EzChess;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEF1C9212721EFD2004A224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSPR5B58TS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aniketgupta.EzChessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzChess.app/EzChess";
+			};
+			name = Debug;
+		};
+		AEF1C9222721EFD2004A224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSPR5B58TS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aniketgupta.EzChessTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EzChess.app/EzChess";
+			};
+			name = Release;
+		};
+		AEF1C9242721EFD2004A224A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSPR5B58TS;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aniketgupta.EzChessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EzChess;
+			};
+			name = Debug;
+		};
+		AEF1C9252721EFD2004A224A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FSPR5B58TS;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aniketgupta.EzChessUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EzChess;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEF1C8EE2721EFCE004A224A /* Build configuration list for PBXProject "EzChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF1C91B2721EFD2004A224A /* Debug */,
+				AEF1C91C2721EFD2004A224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF1C91D2721EFD2004A224A /* Build configuration list for PBXNativeTarget "EzChess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF1C91E2721EFD2004A224A /* Debug */,
+				AEF1C91F2721EFD2004A224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF1C9202721EFD2004A224A /* Build configuration list for PBXNativeTarget "EzChessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF1C9212721EFD2004A224A /* Debug */,
+				AEF1C9222721EFD2004A224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEF1C9232721EFD2004A224A /* Build configuration list for PBXNativeTarget "EzChessUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEF1C9242721EFD2004A224A /* Debug */,
+				AEF1C9252721EFD2004A224A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEF1C8EB2721EFCE004A224A /* Project object */;
+}
