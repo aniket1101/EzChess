@@ -9,13 +9,24 @@
 /* Begin PBXBuildFile section */
 		AEF1C8F72721EFCE004A224A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C8F62721EFCE004A224A /* AppDelegate.swift */; };
 		AEF1C8F92721EFCE004A224A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C8F82721EFCE004A224A /* SceneDelegate.swift */; };
-		AEF1C8FB2721EFCE004A224A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C8FA2721EFCE004A224A /* ViewController.swift */; };
 		AEF1C8FE2721EFCE004A224A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1C8FC2721EFCE004A224A /* Main.storyboard */; };
 		AEF1C9002721EFD1004A224A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEF1C8FF2721EFD1004A224A /* Assets.xcassets */; };
 		AEF1C9032721EFD1004A224A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEF1C9012721EFD1004A224A /* LaunchScreen.storyboard */; };
 		AEF1C90E2721EFD2004A224A /* EzChessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C90D2721EFD2004A224A /* EzChessTests.swift */; };
 		AEF1C9182721EFD2004A224A /* EzChessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9172721EFD2004A224A /* EzChessUITests.swift */; };
 		AEF1C91A2721EFD2004A224A /* EzChessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9192721EFD2004A224A /* EzChessUITestsLaunchTests.swift */; };
+		AEF1C9282721F148004A224A /* SecondLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9272721F148004A224A /* SecondLaunchViewController.swift */; };
+		AEF1C92C2721F255004A224A /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C92B2721F255004A224A /* Color.swift */; };
+		AEF1C92F2721F287004A224A /* HolderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C92E2721F287004A224A /* HolderView.swift */; };
+		AEF1C9312721F2CF004A224A /* OvalLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9302721F2CF004A224A /* OvalLayer.swift */; };
+		AEF1C9332721F2E6004A224A /* TriangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9322721F2E6004A224A /* TriangleLayer.swift */; };
+		AEF1C9352721F316004A224A /* RectangleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9342721F316004A224A /* RectangleLayer.swift */; };
+		AEF1C9372721F32B004A224A /* ArcLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C9362721F32B004A224A /* ArcLayer.swift */; };
+		AEF1C93B27223804004A224A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C93A27223804004A224A /* Extensions.swift */; };
+		AEF1C93E27223BC6004A224A /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C93D27223BC6004A224A /* BoardViewController.swift */; };
+		AEF1C94027223DD6004A224A /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C93F27223DD6004A224A /* Board.swift */; };
+		AEF1C94227223E01004A224A /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C94127223E01004A224A /* BoardView.swift */; };
+		AEF1C94427223E23004A224A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF1C94327223E23004A224A /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +50,6 @@
 		AEF1C8F32721EFCE004A224A /* EzChess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EzChess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF1C8F62721EFCE004A224A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEF1C8F82721EFCE004A224A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AEF1C8FA2721EFCE004A224A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AEF1C8FD2721EFCE004A224A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AEF1C8FF2721EFD1004A224A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEF1C9022721EFD1004A224A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 		AEF1C9132721EFD2004A224A /* EzChessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzChessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF1C9172721EFD2004A224A /* EzChessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzChessUITests.swift; sourceTree = "<group>"; };
 		AEF1C9192721EFD2004A224A /* EzChessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EzChessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AEF1C9272721F148004A224A /* SecondLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLaunchViewController.swift; sourceTree = "<group>"; };
+		AEF1C92B2721F255004A224A /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		AEF1C92E2721F287004A224A /* HolderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolderView.swift; sourceTree = "<group>"; };
+		AEF1C9302721F2CF004A224A /* OvalLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvalLayer.swift; sourceTree = "<group>"; };
+		AEF1C9322721F2E6004A224A /* TriangleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleLayer.swift; sourceTree = "<group>"; };
+		AEF1C9342721F316004A224A /* RectangleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleLayer.swift; sourceTree = "<group>"; };
+		AEF1C9362721F32B004A224A /* ArcLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcLayer.swift; sourceTree = "<group>"; };
+		AEF1C93A27223804004A224A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AEF1C93D27223BC6004A224A /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
+		AEF1C93F27223DD6004A224A /* Board.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		AEF1C94127223E01004A224A /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		AEF1C94327223E23004A224A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +121,16 @@
 		AEF1C8F52721EFCE004A224A /* EzChess */ = {
 			isa = PBXGroup;
 			children = (
+				AEF1C93C27223BB1004A224A /* Board Screen */,
+				AEF1C92A2721F23C004A224A /* Utilities */,
+				AEF1C9262721F11C004A224A /* Launch */,
 				AEF1C8F62721EFCE004A224A /* AppDelegate.swift */,
 				AEF1C8F82721EFCE004A224A /* SceneDelegate.swift */,
-				AEF1C8FA2721EFCE004A224A /* ViewController.swift */,
 				AEF1C8FC2721EFCE004A224A /* Main.storyboard */,
 				AEF1C8FF2721EFD1004A224A /* Assets.xcassets */,
 				AEF1C9012721EFD1004A224A /* LaunchScreen.storyboard */,
 				AEF1C9042721EFD1004A224A /* Info.plist */,
+				AEF1C93A27223804004A224A /* Extensions.swift */,
 			);
 			path = EzChess;
 			sourceTree = "<group>";
@@ -125,6 +150,46 @@
 				AEF1C9192721EFD2004A224A /* EzChessUITestsLaunchTests.swift */,
 			);
 			path = EzChessUITests;
+			sourceTree = "<group>";
+		};
+		AEF1C9262721F11C004A224A /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1C92D2721F279004A224A /* Layers */,
+				AEF1C9272721F148004A224A /* SecondLaunchViewController.swift */,
+				AEF1C92E2721F287004A224A /* HolderView.swift */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		AEF1C92A2721F23C004A224A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1C92B2721F255004A224A /* Color.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		AEF1C92D2721F279004A224A /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1C9302721F2CF004A224A /* OvalLayer.swift */,
+				AEF1C9322721F2E6004A224A /* TriangleLayer.swift */,
+				AEF1C9342721F316004A224A /* RectangleLayer.swift */,
+				AEF1C9362721F32B004A224A /* ArcLayer.swift */,
+			);
+			path = Layers;
+			sourceTree = "<group>";
+		};
+		AEF1C93C27223BB1004A224A /* Board Screen */ = {
+			isa = PBXGroup;
+			children = (
+				AEF1C93D27223BC6004A224A /* BoardViewController.swift */,
+				AEF1C93F27223DD6004A224A /* Board.swift */,
+				AEF1C94127223E01004A224A /* BoardView.swift */,
+				AEF1C94327223E23004A224A /* Game.swift */,
+			);
+			path = "Board Screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +323,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF1C8FB2721EFCE004A224A /* ViewController.swift in Sources */,
+				AEF1C92F2721F287004A224A /* HolderView.swift in Sources */,
+				AEF1C93E27223BC6004A224A /* BoardViewController.swift in Sources */,
+				AEF1C94227223E01004A224A /* BoardView.swift in Sources */,
+				AEF1C94027223DD6004A224A /* Board.swift in Sources */,
+				AEF1C9332721F2E6004A224A /* TriangleLayer.swift in Sources */,
+				AEF1C9372721F32B004A224A /* ArcLayer.swift in Sources */,
+				AEF1C9352721F316004A224A /* RectangleLayer.swift in Sources */,
 				AEF1C8F72721EFCE004A224A /* AppDelegate.swift in Sources */,
+				AEF1C9282721F148004A224A /* SecondLaunchViewController.swift in Sources */,
+				AEF1C94427223E23004A224A /* Game.swift in Sources */,
+				AEF1C92C2721F255004A224A /* Color.swift in Sources */,
 				AEF1C8F92721EFCE004A224A /* SceneDelegate.swift in Sources */,
+				AEF1C93B27223804004A224A /* Extensions.swift in Sources */,
+				AEF1C9312721F2CF004A224A /* OvalLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

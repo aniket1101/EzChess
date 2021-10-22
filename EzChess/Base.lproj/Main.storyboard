@@ -1,24 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Board View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="board" id="BYZ-38-t0r" customClass="BoardViewController" customModule="EzChess" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xIX-9t-TKk" customClass="BoardView" customModule="EzChess" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="245" width="414" height="414"/>
+                                <color key="backgroundColor" systemColor="separatorColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="White" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="olm-ya-obr">
+                                <rect key="frame" x="201" y="116" width="45" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1E-Ru-qYP">
+                                <rect key="frame" x="201" y="171" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ugu-I6-sp1">
+                                <rect key="frame" x="271" y="111" width="115" height="32"/>
+                                <segments>
+                                    <segment title="Player"/>
+                                    <segment title="AI"/>
+                                </segments>
+                                <connections>
+                                    <action selector="togglePlayerType" destination="BYZ-38-t0r" eventType="valueChanged" id="abU-MH-wfG"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="3Pf-li-pWp">
+                                <rect key="frame" x="271" y="167" width="115" height="32"/>
+                                <segments>
+                                    <segment title="Player"/>
+                                    <segment title="AI"/>
+                                </segments>
+                                <connections>
+                                    <action selector="togglePlayerType" destination="BYZ-38-t0r" eventType="valueChanged" id="vyE-Rf-u5h"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxu-tw-e7K">
+                                <rect key="frame" x="171.5" y="709" width="71" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Restart"/>
+                                <connections>
+                                    <action selector="resetGame" destination="BYZ-38-t0r" eventType="touchUpInside" id="ymu-Yd-TlI"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="xIX-9t-TKk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3eV-i5-taU"/>
+                            <constraint firstItem="xIX-9t-TKk" firstAttribute="centerX" secondItem="bxu-tw-e7K" secondAttribute="centerX" id="5Xr-n4-Z0a"/>
+                            <constraint firstItem="xIX-9t-TKk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="245" id="7j3-Lb-xgk"/>
+                            <constraint firstItem="xIX-9t-TKk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8vm-Km-Pvm"/>
+                            <constraint firstItem="ugu-I6-sp1" firstAttribute="leading" secondItem="olm-ya-obr" secondAttribute="trailing" constant="25" id="8w4-nh-1LN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3Pf-li-pWp" secondAttribute="trailing" constant="28" id="CeK-B2-LrS"/>
+                            <constraint firstItem="xIX-9t-TKk" firstAttribute="top" secondItem="3Pf-li-pWp" secondAttribute="bottom" constant="47" id="EC8-Hv-fiY"/>
+                            <constraint firstItem="3Pf-li-pWp" firstAttribute="leading" secondItem="o1E-Ru-qYP" secondAttribute="trailing" constant="28" id="H9y-dI-Vm9"/>
+                            <constraint firstItem="olm-ya-obr" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="o1E-Ru-qYP" secondAttribute="leading" id="IG2-xt-OLq"/>
+                            <constraint firstItem="3Pf-li-pWp" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ugu-I6-sp1" secondAttribute="leading" id="MHd-ly-jcl"/>
+                            <constraint firstItem="xIX-9t-TKk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="4" id="b47-qc-Dig"/>
+                            <constraint firstItem="olm-ya-obr" firstAttribute="centerY" secondItem="ugu-I6-sp1" secondAttribute="centerY" id="e3p-ci-Pwt"/>
+                            <constraint firstItem="o1E-Ru-qYP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="iVP-w8-sG6"/>
+                            <constraint firstItem="bxu-tw-e7K" firstAttribute="top" secondItem="xIX-9t-TKk" secondAttribute="bottom" constant="50" id="jXc-YR-75k"/>
+                            <constraint firstItem="3Pf-li-pWp" firstAttribute="top" secondItem="ugu-I6-sp1" secondAttribute="bottom" constant="25" id="okP-Bi-X8v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ugu-I6-sp1" secondAttribute="trailing" constant="28" id="pOS-qf-bpY"/>
+                            <constraint firstItem="3Pf-li-pWp" firstAttribute="baseline" secondItem="o1E-Ru-qYP" secondAttribute="baseline" id="zdt-Ps-hkP"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="blackToggle" destination="3Pf-li-pWp" id="cmW-df-JFJ"/>
+                        <outlet property="boardView" destination="xIX-9t-TKk" id="pCs-9u-vwl"/>
+                        <outlet property="whiteToggle" destination="ugu-I6-sp1" id="RZc-Zg-h2m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="330" y="72"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="separatorColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
